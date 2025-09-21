@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    background-color: #d5ecf5;
+}
+
+p{
+    font-family: "roboto", sans-serif;
+}
+
+
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 25vh;
+    background: url('assets/hero.png') no-repeat center center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#h1{
+    font-family: "knewave", system-ui;
+    font-size: 2.5rem;
+}
+
+#h2{
+    font-family: "knewave", system-ui;
+    font-weight: lighter;
+    font-size: 1em;
+    color: white;
+    
+}
+
+.highlight{
+    color: #ff99cc;
+    font-family: "knewave", system-ui;
+}
+
+.intro{
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    color: #222;
+    margin: 1.5rem;
+}
+
+.intro div {
+  max-width: 700px;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  background-color: rgba(255,255,255,0.3); /* optional subtle overlay */
+  border-radius: 1rem; /* optional rounded box */
+}
+
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;       
+  justify-content: center;
+  gap: 1.5rem;          
+  padding: 1rem;          
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+
+.card-title {
+  font-family: "knewave", system-ui;
+  color: #66b3ff; /* pastel blue */
+  font-size: 1.3rem;
+}
+
+
+.card-text {
+  color: #333; /* dark gray for readability */
+  font-family: "roboto", sans-serif;
+  line-height: 1.4;
+}
+
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8); /* light transparent pastel */
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* hover effect for fun interactivity */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+  background-color: #66b3ff; /* pastel blue */
+  border: none;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #3399ff; /* slightly darker blue on hover */
+}
+
+
+
+
+
+.footer {
+  background: linear-gradient(to bottom, #ffc0db 10%, #d5ecf5 100%);
+  color: #222; /* dark gray for readability */
+  padding: 2rem 0;
+}
+
+
+.footer p{
+    text-align: center;
+    margin: 0;   
+}
+
+#verso{
+    margin: 0.5rem 0.5rem 3rem 0.5rem;
+}
+
+.footer .rights {
+  text-align: center;
+  font-size: .6rem;
+}
