@@ -45,6 +45,14 @@ p{
     
 }
 
+h3{
+  font-family: "knewave", system-ui;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  color: #66b3ff;
+}
+
 .coded-by {
     font-size: .8rem;
     margin-top: 0.5rem;
@@ -95,7 +103,7 @@ p{
 
 .card-title {
   font-family: "knewave", system-ui;
-  color: #66b3ff; /* pastel blue */
+  color: #66b3ff;
   font-size: 1.3rem;
 }
 
@@ -134,7 +142,22 @@ p{
 }
 
 
+.contacto h3{
+  margin-top: 40px;
+  font-size: 25px;
+}
 
+#pedido{
+  background-color: #66b3ff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
 
 
 .footer {
@@ -156,4 +179,10 @@ p{
 .footer .rights {
   text-align: center;
   font-size: .6rem;
+}
+
+h6{
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    color: #222;
 }
